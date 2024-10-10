@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "NodeNext", 
+    "lib": ["dom", "ES2016"],
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "NodeNext"
+  },
+  "exclude": ["node_modules"],
+  "include": ["index.ts"]
+}
